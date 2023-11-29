@@ -24,6 +24,24 @@ The following SQL concepts were incorporated in the analysis:
 ## Analysis:
 1.	The product category that drives the biggest profit is **Toys** with a total profit of **£5,092,081.66.** with **Airport** location ranking as the **lowest** category and  **Downtown** as the **highest** category.
 ---
-Total profit        |category by ranking
+Total profit        |Category by ranking
 :-----------------:|:-----------------:
-![](biggest_profit.png)|![](category_ranking.png)
+![](biggest_profit.PNG)|![](category_ranking.PNG)
+
+2.	In order to get how much money is tied up in inventory, **the holding cost or working capital is calculated as the sum of each product cost multiplied by the stock on hand.** This amount is calculated across all 50 store locations with the figures as seen below. Also, to know how long the inventory tied up in these locations will last, I used the select statement with some aggregate functions like sum, average, count, and to_char to derive the answers below;
+----
+Holding Cost       | Lasting Period
+:-----------------:|:---------------:
+![](holding_costs.PNG)|![](lasting_period.PNG)
+----
+3. There are sales lost in each location but to know if sales are being lost with some of the products being out of stock, this depends on whether Maven Toys wants this information across all locations, certain locations, or the total sales that are lost. Each scenario is explained in the code.
+
+
+## Conclusion and Recommendations:
+1.	**Toys** drives the biggest profit, Maven Toys should invest in other products in order to derive more sales.  
+2.	There are **37 different products** with zero stock on hand with a total loss of **£582.78.**
+3.	There are some products tied up in inventory that can be sold at discounted prices.
+
+## THANK YOU FOR READING! 😃👍
+
+
