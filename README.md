@@ -3,7 +3,7 @@
 ![](toys.png)
 ----
 ## Introduction
-Sales and inventory data for a fictitious chain of toy stores called **Maven Toys.** The data given includes information about products, stores, daily sales transactions, and current inventory levels at each location. This project is done using SQL to derive insights and crucial questions to help the Mexican store make data-driven decisions. 
+Sales and inventory data for a fictitious chain of toy stores called **Maven Toys.** The data given includes information about products, stores, daily sales transactions, and current inventory levels at each location. This project is done using SQL to derive insights and crucial questions to help the store make data-driven decisions. 
 
 **_Disclaimer: All datasets are not real and do not represent any company, institution, or country, but just to demonstrate the capabilities of SQL._**
 
